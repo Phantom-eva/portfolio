@@ -25,6 +25,7 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+  
   return(
     <BrowserRouter>
       <Preloader load={load} />

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portofilo/static/css/main.82778360.css",
-    "main.js": "/portofilo/static/js/main.fe592d9c.js",
+    "main.css": "/portofilo/static/css/main.440fc92e.css",
+    "main.js": "/portofilo/static/js/main.d3cea2b8.js",
     "static/js/787.005d8a0a.chunk.js": "/portofilo/static/js/787.005d8a0a.chunk.js",
     "static/media/home.jpg": "/portofilo/static/media/home.3349d0576eb36ce892f6.jpg",
     "static/media/logo.svg": "/portofilo/static/media/logo.8d244d4d0f6dd1206c8ba6af9ae7b51b.svg",
     "index.html": "/portofilo/index.html",
-    "main.82778360.css.map": "/portofilo/static/css/main.82778360.css.map",
-    "main.fe592d9c.js.map": "/portofilo/static/js/main.fe592d9c.js.map",
+    "main.440fc92e.css.map": "/portofilo/static/css/main.440fc92e.css.map",
+    "main.d3cea2b8.js.map": "/portofilo/static/js/main.d3cea2b8.js.map",
     "787.005d8a0a.chunk.js.map": "/portofilo/static/js/787.005d8a0a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82778360.css",
-    "static/js/main.fe592d9c.js"
+    "static/css/main.440fc92e.css",
+    "static/js/main.d3cea2b8.js"
   ]
 }

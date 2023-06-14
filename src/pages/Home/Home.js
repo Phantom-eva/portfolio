@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particles from "react-tsparticles";
-import "../assets/Home.css";
+import "./Home.css";
 
 function Particle() {
   return (

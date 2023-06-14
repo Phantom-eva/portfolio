@@ -10,6 +10,8 @@
   transition: all 0.3s ease-out 0s !important;
   padding: 0.3rem 2rem !important;
   font-size: 1.2rem !important;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .navbar-toggler {
@@ -74,7 +76,7 @@
   }
 }
 .navbar-brand {
-  color: rgb(250, 250, 250) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .logo {
@@ -83,7 +85,7 @@
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: rgb(2, 2, 2) !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
+import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from "../logo.svg";
+import logo from "./logo.svg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+// icons
 import { CgGitFork } from "react-icons/cg";
 import {
   AiFillStar as AiStar,
@@ -13,9 +13,10 @@ import {
   AiOutlineFundProjectionScreen as AiProject,
   AiOutlineMail as AiContact,
 } from "react-icons/ai";
-import { CgFileDocument as AiFile } from "react-icons/cg";
-import { MdNightlife as AiLife } from "react-icons/md";
-import "../assets/Navbar.css";
+import { CgFileDocument as CgFile } from "react-icons/cg";
+import { MdNightlife as MdLife } from "react-icons/md";
+// css file
+import "./Navbar.css";
 
 function NavBar() {
   const [expand, setExpand] = useState(false);
@@ -62,12 +63,8 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => setExpand(false)}
-              >
-                <AiFile style={{ marginBottom: "2px" }} /> Resume
+              <Nav.Link as={Link} to="/resume" onClick={() => setExpand(false)}>
+                <CgFile style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
 
@@ -82,13 +79,17 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/resume" onClick={() => setExpand(false)}>
-                <AiLife style={{ marginBottom: "2px" }} /> Life
+              <Nav.Link as={Link} to="/life" onClick={() => setExpand(false)}>
+                <MdLife style={{ marginBottom: "2px" }} /> Life
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/resume" onClick={() => setExpand(false)}>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => setExpand(false)}
+              >
                 <AiContact style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>

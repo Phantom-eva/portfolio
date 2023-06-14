@@ -6,7 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import "../assets/Footer.css";
+import "./Footer.css";
 
 function Footer() {
   let date = new Date();

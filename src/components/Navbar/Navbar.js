@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 import logo from "./logo.svg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
@@ -20,26 +20,10 @@ import "./Navbar.css";
 
 function NavBar() {
   const [expand, setExpand] = useState(false);
-  const [navbar, setNavbar] = useState(false);
-
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  }
-
-  window.addEventListener("scroll", scrollHandler);
 
   return (
-    <Navbar
-      expanded={expand}
-      fixed="top"
-      expand="md"
-      className={navbar ? "sticky" : "navbar"}
-    >
-      <Container fluid>
+    <Navbar expanded={expand} fixed="top" expand="md" sticky="top">
+      <Container className="navborder">
         <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
           Yilin (Michael) Li's website

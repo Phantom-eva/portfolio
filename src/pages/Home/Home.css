@@ -49,7 +49,7 @@
 
 .home-section {
   position: relative;
-  z-index: -1;
+  z-index: 1 !important;
   background-image: var(--image-gradient), url(./home.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -59,8 +59,9 @@
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: rgb(8, 8, 8);
   text-align: left;
+  z-index: 2;
 }
 
 .heading {

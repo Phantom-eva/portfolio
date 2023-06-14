@@ -4,8 +4,10 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillFacebook,
+  AiFillLinkedin,
+  AiFillYoutube,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 import "./Footer.css";
 
 function Footer() {
@@ -34,7 +36,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://twitter.com/YilinLi73590070"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -49,17 +51,37 @@ function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn />
+                <AiFillLinkedin />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.instagram.com/yessy_qaq/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.facebook.com/yilin.li.100483/"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillFacebook />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.youtube.com/channel/UC1PkfB0eaJ9Fj0R5SdJgDow"
+                style={{ color: "white" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillYoutube />
               </a>
             </li>
           </ul>

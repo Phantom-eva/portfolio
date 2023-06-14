@@ -1,17 +1,15 @@
-.sticky {
-  background-color: #1b1a2ea9 !important;
-  transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
+.navbar {
+  font-size: large;
 }
 
-.navbar {
-  position: fixed !important;
-  transition: all 0.3s ease-out 0s !important;
-  padding: 0.3rem 2rem !important;
-  font-size: 1.2rem !important;
-  margin-left: 10%;
-  margin-right: 10%;
+.navborder {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.logo {
+  height: 1.4em !important;
+  width: 2.5em !important;
 }
 
 .navbar-toggler {
@@ -77,11 +75,6 @@
 }
 .navbar-brand {
   color: rgb(0, 0, 0) !important;
-}
-
-.logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
 }
 
 .navbar-nav .nav-link {

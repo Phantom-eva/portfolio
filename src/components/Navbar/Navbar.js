@@ -17,6 +17,7 @@ import { CgFileDocument as CgFile } from "react-icons/cg";
 import { MdNightlife as MdLife } from "react-icons/md";
 // css file
 import "./Navbar.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function NavBar() {
   const [expand, setExpand] = useState(false);

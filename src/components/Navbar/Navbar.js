@@ -25,7 +25,7 @@ function NavBar() {
   return (
     <Navbar expanded={expand} fixed="top" expand="md" sticky="top">
       <Container className="navborder">
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="/portfolio" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
           Yilin (Michael) Li's website
         </Navbar.Brand>

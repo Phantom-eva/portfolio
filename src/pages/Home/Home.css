@@ -1,20 +1,54 @@
-.home-header {
-  padding-top: 40px !important;
-  padding-left: 60px;
+.type {
+  font-size: 1.8em;
+  color: rgb(8, 8, 8);
+  text-align: left;
 }
 
 .home-section {
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
   position: relative;
   z-index: 1 !important;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  /* padding-bottom: 20px !important;
+  padding-top: 20px !important; */
 }
 
-.home-content {
-  padding: 9rem 0 2rem !important;
-  color: rgb(8, 8, 8);
-  text-align: left;
+.home-content-1 {
   z-index: 2;
+  margin-left: 1%;
+  width: 98%;
+  margin-right: 1%;
+  margin-top: 20px;
+}
+
+.content-1-part {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 45%;
+}
+
+.content-1-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 250px;
+  text-align: left;
+}
+
+.content-1-img {
+  margin-top: 0;
+}
+
+.home-img {
+  width: 100%;
+  height: auto;
+}
+
+.home-about {
+  padding-top: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .heading {
@@ -29,13 +63,6 @@
 
 .main-name {
   color: #cd5ff8;
-}
-
-.home-img {
-  padding-top: 10px;
-
-  width: 500px;
-  height: 500px;
 }
 
 .Typewriter__wrapper {
@@ -85,8 +112,11 @@
 }
 
 .home-about-body {
-  padding-top: 50px;
-  font-size: 1.2em !important;
+  padding-top: 25px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 25px;
+  font-size: 1.8em !important;
   text-align: left;
 }
 

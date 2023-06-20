@@ -3,7 +3,7 @@
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 50px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -18,7 +18,7 @@
 
 .project-card-view {
   box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
@@ -41,13 +41,13 @@
 .blog-card-view {
   background-color: transparent !important;
   box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
 
 .blog-link {
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   text-decoration: none !important;
 }
 
@@ -74,13 +74,13 @@
 }
 
 .btn-primary {
-  color: #fff !important;
+  color: #000000 !important;
   background-color: #623686 !important;
   border-color: #623686 !important;
 }
 
 .btn-primary:hover {
-  color: #fff !important;
+  color: #000000 !important;
   background-color: #6d20c5d7 !important;
   border-color: #6d20c5d7 !important;
 }
@@ -89,7 +89,7 @@
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;

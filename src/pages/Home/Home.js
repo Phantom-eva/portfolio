@@ -53,68 +53,54 @@ const Skill = ({ skill: { title, progress }, secondary = false }) => {
   );
 };
 
-function Section({ id, title, children }) {
-  return (
-    <React.Fragment>
-      <section className="resume-section" id={id}>
-        <div className="resume-section-content">
-          {title && <h2 className="mb-5">{title}</h2>}
-          {children}
-        </div>
-      </section>
-      <hr className="m-0" />
-    </React.Fragment>
-  );
-}
-
 const Skills = () => {
   let data = {
     skills: [
       {
         title: "C / C++",
-        progress: "75%",
-      },
-      {
-        title: "Javascript",
-        progress: "65%",
-      },
-      {
-        title: "Python",
-        progress: "45%",
-      },
-      {
-        title: "HTML",
         progress: "90%",
       },
       {
-        title: "CSS",
+        title: "Python",
+        progress: "90%",
+      },
+      {
+        title: "HTML",
         progress: "80%",
+      },
+      {
+        title: "CSS",
+        progress: "70%",
+      },
+      {
+        title: "Java",
+        progress: "50%",
+      },
+      {
+        title: "Javascript",
+        progress: "50%",
       },
     ],
     frameworks: [
       {
-        title: "React.js",
-        progress: "90%",
+        title: "PyTorch",
+        progress: "80%",
       },
       {
-        title: "Framer Motion",
-        progress: "40%",
-      },
-      {
-        title: "Photoshop / Figma / UI / UX",
-        progress: "60%",
+        title: "Pandas",
+        progress: "80%",
       },
       {
         title: "Django",
-        progress: "50%",
-      },
-      {
-        title: "Bootstrap",
         progress: "70%",
       },
       {
-        title: "Material-UI",
-        progress: "80%",
+        title: "React.js",
+        progress: "60%",
+      },
+      {
+        title: "Bootstrap",
+        progress: "60%",
       },
     ],
   };
@@ -134,43 +120,47 @@ const Skills = () => {
   ));
 
   return (
-    <Section id="skills" title="Skills">
-      <div className="subheading mb-3">Coding Languages</div>
-      <div className="row mb-4">{skillsJsx}</div>
-      <div className="subheading mb-3">Frameworks / Libraries</div>
-      <div className="row mb-4">{frameworksJsx}</div>
-    </Section>
+    <Container className="skills">
+      <div className="skill-header">Programming Languages</div>
+      <div className="skill-detail">{skillsJsx}</div>
+      <div className="skill-header">Frameworks / Libraries</div>
+      <div className="skill-detail">{frameworksJsx}</div>
+    </Container>
   );
 };
 
 function Home() {
   return (
     <Container className="home-section">
-      <div className="home-content-1">
-        <div className="content-1-part">
-          <div className="content-1-text">
-            <Typething />
-          </div>
-        </div>
-        <div className="content-1-part">
-          <div className="content-1-img">
-            <img className="home-img" src={photo} alt="photo" />
-          </div>
-        </div>
-      </div>
+      <Container className="home-content-1">
+        <Typething className="type-part" />
+      </Container>
       <Container className="home-about">
-        <hr />
-        <h1>About me</h1>
-        <p className="home-about-body">
-          My name is Yilin Li. I am an ECE master student at the University of
-          Michigan - Ann Arbor. My specific track is computer vision area, and
-          I'm also interested in machine learning and software development.
-          Currently, I am actively looking for a full-time SDE job.
-        </p>
+        <hr className="hr-type" />
+        <h1 className="home-about-header">About me</h1>
+        <img className="home-img" src={photo} alt="photo" />
+        <div className="home-about-content">
+          <ul>
+            <li>
+              My name is <strong>Yilin Li</strong>. You can also call me{" "}
+              <strong color="purple">Michael</strong>.
+            </li>
+            <li>
+              I am an alumnus of{" "}
+              <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>{" "}
+              and <a href="https://umich.edu/">the University of Michigan</a>.
+            </li>
+            <li>
+              I mainly focus on computer vision, machine learning and full-stack
+              software development.
+            </li>
+            <li>Currently, I am actively looking for a full-time SDE job.</li>
+          </ul>
+        </div>
       </Container>
       <Container className="home-skill">
         <hr />
-        <h1>Skill Summary</h1>
+        <h1 className="home-about-header">Skill Summary</h1>
         <Skills />
       </Container>
     </Container>

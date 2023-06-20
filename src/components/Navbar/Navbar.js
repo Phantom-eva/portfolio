@@ -27,7 +27,7 @@ function NavBar() {
       <Container className="navborder">
         <Navbar.Brand href="/portfolio" className="d-flex">
           <img src={logo} className="img-fluid logo" alt="brand" />
-          Yilin (Michael) Li's website
+          &nbsp;Yilin (Michael) Li's website
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

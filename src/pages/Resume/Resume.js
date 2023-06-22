@@ -1,7 +1,7 @@
 import { Button, Container } from "react-bootstrap";
 import { AiOutlineDownload } from "react-icons/ai";
 import "./Resume.css";
-import pdf from "../Resume/yilinli-resume-sde.pdf";
+import pdf from "../../Assets/pdf/yilinli-resume-sde.pdf";
 
 function Resumebutton() {
   return (
@@ -13,7 +13,8 @@ function Resumebutton() {
         style={{ maxWidth: "250px" }}
       >
         <AiOutlineDownload />
-        &nbsp;Click here to download my resume.
+        &nbsp;
+        <div className="resume-button">Click here to download my resume.</div>
       </Button>
     </div>
   );
@@ -22,10 +23,8 @@ function Resumebutton() {
 function Resume() {
   return (
     <Container className="resume">
-      <Resumebutton />
       <Container className="education">
         <Container className="resume-header">Education Background</Container>
-        <hr />
         <Container className="resume-subheader">
           University of Michigan - Ann Arbor
         </Container>
@@ -60,7 +59,6 @@ function Resume() {
       </Container>
       <Container className="work">
         <Container className="resume-header">Work Experience</Container>
-        <hr />
         <Container className="resume-subheader">
           Huawei Hangzhou Research Institute
         </Container>
@@ -87,7 +85,6 @@ function Resume() {
       </Container>
       <Container className="project">
         <Container className="resume-header">Research and Projects</Container>
-        <hr />
         <Container className="resume-subheader">
           A Compiler For The COOL Programming Language:
         </Container>
@@ -164,6 +161,7 @@ function Resume() {
           </ul>
         </Container>
       </Container>
+      <Resumebutton />
     </Container>
   );
 }

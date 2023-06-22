@@ -1,10 +1,16 @@
-import React, { useEffect, useRef, useState } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React, { useEffect, useRef } from "react";
+import { Container } from "react-bootstrap";
 import "./Home.css";
-import photo from "./photo.png";
+import photo from "../../Assets/img/photo.png";
 import Typed from "typed.js";
+import {
+  BsFillPersonFill as BsPerson,
+  BsBookHalf as BsBook,
+  BsFillBuildingFill as BsBuilding,
+  BsCalendarCheck as BsCalendar,
+} from "react-icons/bs";
 
-function Typething() {
+function Typeeffect() {
   // Create Ref element.
   const el = useRef(null);
 
@@ -28,9 +34,7 @@ function Typething() {
 
   return (
     <div>
-      <h1>
-        <strong>Hello everyone!</strong>
-      </h1>
+      <h1 className="type-header">Hello everyone!</h1>
       {/* Element to display typing strings */}
       <span ref={el} className="type"></span>
     </div>
@@ -132,34 +136,42 @@ const Skills = () => {
 function Home() {
   return (
     <Container className="home-section">
-      <Container className="home-content-1">
-        <Typething className="type-part" />
+      <Container className="home-intro">
+        <Typeeffect className="type-part" />
       </Container>
       <Container className="home-about">
-        <hr className="hr-type" />
         <h1 className="home-about-header">About me</h1>
         <img className="home-img" src={photo} alt="photo" />
         <div className="home-about-content">
-          <ul>
-            <li>
-              My name is <strong>Yilin Li</strong>. You can also call me{" "}
-              <strong color="purple">Michael</strong>.
-            </li>
-            <li>
-              I am an alumnus of{" "}
-              <a href="https://www.zju.edu.cn/english/">Zhejiang University</a>{" "}
-              and <a href="https://umich.edu/">the University of Michigan</a>.
-            </li>
-            <li>
-              I mainly focus on computer vision, machine learning and full-stack
-              software development.
-            </li>
-            <li>Currently, I am actively looking for a full-time SDE job.</li>
-          </ul>
+          <div>
+            <BsPerson />
+            &nbsp;My name is <strong>Yilin Li</strong>. You can also call me{" "}
+            <strong color="purple">Michael</strong>.
+          </div>
+          <div>
+            <BsBuilding />
+            &nbsp;I am an alumnus of{" "}
+            <a href="https://www.zju.edu.cn/english/" className="ref-link">
+              <strong>Zhejiang University</strong>
+            </a>{" "}
+            and{" "}
+            <a href="https://umich.edu/" className="ref-link">
+              <strong>the University of Michigan</strong>
+            </a>
+            .
+          </div>
+          <div>
+            <BsBook />
+            &nbsp;I mainly focus on <strong>CV</strong>,<strong>ML</strong> and{" "}
+            <strong>full-stack software development</strong>.
+          </div>
+          <div>
+            <BsCalendar />
+            &nbsp;Currently, I am actively looking for a full-time SDE job.
+          </div>
         </div>
       </Container>
       <Container className="home-skill">
-        <hr />
         <h1 className="home-about-header">Skill Summary</h1>
         <Skills />
       </Container>

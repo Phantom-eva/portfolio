@@ -9,9 +9,11 @@
 
 .resume-header {
   text-align: left;
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: 600;
   color: blueviolet;
+  border-style: dashed;
+  border-radius: 2px;
 }
 
 .resume-content {
@@ -33,4 +35,8 @@
   font-weight: 300;
   color: rgb(0, 0, 0);
   font-style: italic;
+}
+
+.resume-button {
+  color: whitesmoke;
 }

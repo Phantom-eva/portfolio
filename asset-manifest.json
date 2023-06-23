@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2854becd.css",
-    "main.js": "/portfolio/static/js/main.deb89d3c.js",
+    "main.css": "/portfolio/static/css/main.fff30944.css",
+    "main.js": "/portfolio/static/js/main.dbce44f1.js",
     "static/js/787.005d8a0a.chunk.js": "/portfolio/static/js/787.005d8a0a.chunk.js",
     "static/media/13.jpg": "/portfolio/static/media/13.e3277cb5c74334d712ee.jpg",
     "static/media/10.JPG": "/portfolio/static/media/10.122b721bb443a6c502e7.JPG",
@@ -41,14 +41,13 @@
     "static/media/592.png": "/portfolio/static/media/592.5e3004ea9b6e61d1f3c1.png",
     "static/media/yilinli-resume-sde.pdf": "/portfolio/static/media/yilinli-resume-sde.c90d4d41835a8122687f.pdf",
     "static/media/logo.svg": "/portfolio/static/media/logo.8d244d4d0f6dd1206c8ba6af9ae7b51b.svg",
-    "static/media/background.png": "/portfolio/static/media/background.258380a76a124e7687f1.png",
     "index.html": "/portfolio/index.html",
-    "main.2854becd.css.map": "/portfolio/static/css/main.2854becd.css.map",
-    "main.deb89d3c.js.map": "/portfolio/static/js/main.deb89d3c.js.map",
+    "main.fff30944.css.map": "/portfolio/static/css/main.fff30944.css.map",
+    "main.dbce44f1.js.map": "/portfolio/static/js/main.dbce44f1.js.map",
     "787.005d8a0a.chunk.js.map": "/portfolio/static/js/787.005d8a0a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2854becd.css",
-    "static/js/main.deb89d3c.js"
+    "static/css/main.fff30944.css",
+    "static/js/main.dbce44f1.js"
   ]
 }

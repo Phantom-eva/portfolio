@@ -1,3 +1,10 @@
+.contact-section {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
 .contact__form .form-control {
   padding: 1.375rem 0.75rem;
   line-height: 1.5;
@@ -43,4 +50,25 @@ button.btn.ac_btn:hover {
   100% {
     transform: translateX(100%);
   }
+}
+
+.contact-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2em;
+  font-weight: 600;
+  text-align: left;
+}
+
+.contact-content-header {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.6em;
+  font-weight: 400;
+  text-align: left;
+}
+
+.contact-content {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.3em;
+  font-weight: 400;
+  text-align: left;
 }

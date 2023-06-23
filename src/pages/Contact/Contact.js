@@ -12,7 +12,8 @@ const meta = {
 const contactConfig = {
   YOUR_EMAIL: "liyilin2967@gmail.com",
   YOUR_FONE: "(734)450-8721",
-  description: "Please send me an email to connect. ",
+  description:
+    "Please send me an email or follow me on social media platforms. ",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
   YOUR_SERVICE_ID: "service_pv9ihe9",
@@ -80,18 +81,14 @@ export default function Contact() {
 
   return (
     <HelmetProvider>
-      <Container>
+      <Container className="contact-section">
         <Helmet>
           <meta charSet="utf-8" />
           <title>{meta.title} | Contact</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <Row className="mb-5 mt-3 pt-md-3">
-          <Col lg="8">
-            <h1 className="display-4 mb-4">Contact Me</h1>
-            <hr className="t_border my-4 ml-0 text-left" />
-          </Col>
-        </Row>
+        <h1 className="contact-title">Contact Me</h1>
+        <hr />
         <Row className="sec_sp">
           <Col lg="12">
             <Alert
@@ -107,13 +104,13 @@ export default function Contact() {
             </Alert>
           </Col>
           <Col lg="5" className="mb-5">
-            <h3 className="color_sec py-4">Get in touch</h3>
-            <address>
-              <strong>Email:</strong>{" "}
+            <h3 className="contact-content-header">Get in touch</h3>
+            <br />
+            <address className="contact-content">
+              <strong>Email: </strong>
               <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
                 {contactConfig.YOUR_EMAIL}
               </a>
-              <br />
               <br />
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
@@ -123,7 +120,7 @@ export default function Contact() {
                 ""
               )}
             </address>
-            <p>{contactConfig.description}</p>
+            <p className="contact-content">{contactConfig.description}</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">

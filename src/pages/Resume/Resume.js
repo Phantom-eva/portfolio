@@ -25,6 +25,7 @@ function Resume() {
     <Container className="resume">
       <Container className="education">
         <Container className="resume-header">Education Background</Container>
+        <hr />
         <Container className="resume-subheader">
           University of Michigan - Ann Arbor
         </Container>
@@ -32,12 +33,23 @@ function Resume() {
           Master of Science in Electrical and Computer Engineering (Minor:
           Computer Vision)
         </Container>
+        <Container className="resume-time">Aug. 2021- Apr. 2023</Container>
         <Container className="resume-content">
           <ul>
             <li>GPA: 4.00/4.00</li>
             <li>
-              Courses: Data Manipulation and Analysis, Machine Learning,
-              Computer Vision, Database App Design, Intermediate Programming
+              Courses taken:
+              <ul>
+                <li>EECS 442 Computer Vision A+</li>
+                <li>EECS 501 Probability and Random Processes A</li>
+                <li>EECS 542 Advanced Top Computer Vision A</li>
+                <li>EECS 545 Machine Learning A-</li>
+                <li>EECS 551 Matrix Methods for Signal Processing A</li>
+                <li>EECS 592 AI Foundations A</li>
+                <li>SI 507 Intermediate Programming A</li>
+                <li>SI 618 Data Manipulation and Analysis A+</li>
+                <li>SI 664 Database Application A</li>
+              </ul>
             </li>
           </ul>
         </Container>
@@ -46,25 +58,33 @@ function Resume() {
           Bachelor of Engineering in Electronic Information (Minor: Information
           Engineering)
         </Container>
+        <Container className="resume-time">Aug. 2017- Jun. 2021</Container>
         <Container className="resume-content">
           <ul>
             <li>GPA: 3.68/4.00 (Major: 3.82/4.00)</li>
             <li>
-              Courses: Numerical Analysis Methods, Digital Image Processing,
-              Data Analysis and Algorithm Design, Computer Composition and
-              Design
+              Courses taken:
+              <ul>
+                <li>Fundamentals of C Programming 91</li>
+                <li>Wireless Network Application 98</li>
+                <li>Digital Image Processing 94</li>
+                <li>Data Analysis and Algorithm Design 88</li>
+                <li>Principles of Embedded Computing System Design 90</li>
+              </ul>
             </li>
           </ul>
         </Container>
       </Container>
       <Container className="work">
         <Container className="resume-header">Work Experience</Container>
+        <hr />
         <Container className="resume-subheader">
           Huawei Hangzhou Research Institute
         </Container>
         <Container className="resume-job-title">
           Software Development Engineer Intern
         </Container>
+        <Container className="resume-time">Jul. 2020- Aug. 2020</Container>
         <Container className="resume-content">
           <ul>
             <li>
@@ -85,6 +105,7 @@ function Resume() {
       </Container>
       <Container className="project">
         <Container className="resume-header">Research and Projects</Container>
+        <hr />
         <Container className="resume-subheader">
           A Compiler For The COOL Programming Language:
         </Container>

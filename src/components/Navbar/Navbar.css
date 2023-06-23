@@ -1,14 +1,12 @@
 .navbar {
-  font-size: large;
-  background-color: #ffffffa9 !important;
+  font-size: 1.4em;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(255, 255, 255, 0.171) !important;
   backdrop-filter: blur(10px) !important;
 }
 .navborder {
-  margin-left: 15%;
-  margin-right: 15%;
-  width: 70%;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .logo {
@@ -75,8 +73,14 @@
     display: none !important;
   }
 }
+
 .navbar-brand {
   color: rgb(0, 0, 0) !important;
+}
+
+.brand-content {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.3em;
 }
 
 .navbar-nav .nav-link {

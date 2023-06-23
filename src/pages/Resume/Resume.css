@@ -2,39 +2,48 @@
   padding-top: 30px;
   padding-bottom: 30px;
   justify-content: center;
-  margin-left: 30%;
-  margin-right: 30%;
-  width: 40%;
+  justify-content: center;
 }
 
 .resume-header {
   text-align: left;
-  font-size: 2em;
+  font-size: 1.8em;
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+
+.resume-subheader {
+  text-align: left;
+  font-size: 1.5em;
   font-weight: 600;
-  color: blueviolet;
-  border-style: dashed;
-  border-radius: 2px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 0, 0);
+}
+
+.resume-job-title {
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+
+.resume-time {
+  text-align: left;
+  font-size: 1.1em;
+  font-weight: 300;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 0, 0);
+  font-style: italic;
 }
 
 .resume-content {
   text-align: left;
   font-size: 1.3em;
   font-weight: 400;
-}
-
-.resume-subheader {
-  text-align: left;
-  font-size: 1.8em;
-  font-weight: 500;
-  color: rgb(0, 0, 0);
-}
-
-.resume-job-title {
-  text-align: left;
-  font-size: 1.5em;
-  font-weight: 300;
-  color: rgb(0, 0, 0);
-  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .resume-button {

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
-  background-image: url(./Assets/img/background.png);
+  /* background-image: url(./Assets/img/background.png); */
+  background-color: azure;
   z-index: -100;
 }

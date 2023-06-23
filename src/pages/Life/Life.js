@@ -42,7 +42,7 @@ function Life() {
       <Container>
         <h1 className="life-header">Photo</h1>
         <div className="photo-description">
-          I like photography, I will upload some of my works on this page.
+          I like photography. I will upload some of my works on this page.
         </div>
       </Container>
       <Container>

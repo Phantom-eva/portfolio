@@ -125,10 +125,10 @@ const Skills = () => {
 
   return (
     <Container className="skills">
-      <div className="skill-header">Programming Languages</div>
-      <div className="skill-detail">{skillsJsx}</div>
-      <div className="skill-header">Frameworks / Libraries</div>
-      <div className="skill-detail">{frameworksJsx}</div>
+      <Container className="skill-header">Programming Languages</Container>
+      <Container className="skill-detail">{skillsJsx}</Container>
+      <Container className="skill-header">Frameworks / Libraries</Container>
+      <Container className="skill-detail">{frameworksJsx}</Container>
     </Container>
   );
 };
@@ -142,13 +142,13 @@ function Home() {
       <Container className="home-about">
         <h1 className="home-about-header">About me</h1>
         <img className="home-img" src={photo} alt="photo" />
-        <div className="home-about-content">
-          <div>
+        <Container className="home-about-content">
+          <Container>
             <BsPerson />
             &nbsp;My name is <strong>Yilin Li</strong>. You can also call me{" "}
             <strong color="purple">Michael</strong>.
-          </div>
-          <div>
+          </Container>
+          <Container>
             <BsBuilding />
             &nbsp;I am an alumnus of{" "}
             <a href="https://www.zju.edu.cn/english/" className="ref-link">
@@ -159,17 +159,17 @@ function Home() {
               <strong>the University of Michigan</strong>
             </a>
             .
-          </div>
-          <div>
+          </Container>
+          <Container>
             <BsBook />
             &nbsp;I mainly focus on <strong>CV</strong>,<strong>ML</strong> and{" "}
             <strong>full-stack software development</strong>.
-          </div>
-          <div>
+          </Container>
+          <Container>
             <BsCalendar />
             &nbsp;Currently, I am actively looking for a full-time SDE job.
-          </div>
-        </div>
+          </Container>
+        </Container>
       </Container>
       <Container className="home-skill">
         <h1 className="home-about-header">Skill Summary</h1>

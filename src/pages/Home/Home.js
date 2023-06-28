@@ -35,7 +35,7 @@ function Typeeffect() {
   return (
     <div>
       <h1 className="type-header">Hello everyone!</h1>
-      {/* Element to display typing strings */}
+      <hr style={{ color: "white" }} />
       <span ref={el} className="type"></span>
     </div>
   );
@@ -141,7 +141,7 @@ function Home() {
       </Container>
       <Container className="home-about">
         <h1 className="home-about-header">About me</h1>
-        <img className="home-img" src={photo} alt="photo" />
+        <img className="home-img" src={photo} alt="lyl" />
         <Container className="home-about-content">
           <Container>
             <BsPerson />

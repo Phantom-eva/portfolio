@@ -38,6 +38,7 @@ function Life() {
           I like playing games including League of Legends, Genshin Impact,
           Honkai Star Railway, Fate Grand Order, etc.
         </div>
+        <hr />
       </Container>
       <Container>
         <h1 className="life-header">Photo</h1>

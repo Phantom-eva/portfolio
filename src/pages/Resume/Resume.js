@@ -23,9 +23,18 @@ function Resumebutton() {
 function Resume() {
   return (
     <Container className="resume">
+      <Container className="summary">
+        <Container className="resume-header">Summary</Container>
+        <Container className="resume-content">
+          My name is Yilin Li. You can also call me Michael. <br />
+          Recently, I graduated from the University of Michigan with a master's
+          degree in Electrical and Computer Engineering. <br />
+          Now, I mainly focus on computer vision and software development.
+        </Container>
+        <hr />
+      </Container>
       <Container className="education">
         <Container className="resume-header">Education Background</Container>
-        <hr />
         <Container className="resume-subheader">
           University of Michigan - Ann Arbor
         </Container>
@@ -74,10 +83,10 @@ function Resume() {
             </li>
           </ul>
         </Container>
+        <hr />
       </Container>
       <Container className="work">
         <Container className="resume-header">Work Experience</Container>
-        <hr />
         <Container className="resume-subheader">
           Huawei Hangzhou Research Institute
         </Container>
@@ -102,10 +111,10 @@ function Resume() {
             </li>
           </ul>
         </Container>
+        <hr />
       </Container>
       <Container className="project">
         <Container className="resume-header">Research and Projects</Container>
-        <hr />
         <Container className="resume-subheader">
           A Compiler For The COOL Programming Language:
         </Container>
@@ -167,10 +176,10 @@ function Resume() {
             </li>
           </ul>
         </Container>
+        <hr />
       </Container>
       <Container className="honor">
         <Container className="resume-header">Honors and Awards</Container>
-        <hr />
         <Container className="resume-content">
           <ul>
             <li>Outstanding Graduate of Zhejiang University - 2021</li>

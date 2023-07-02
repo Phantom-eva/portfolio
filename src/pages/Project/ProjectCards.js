@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
+import { AiOutlineLink } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 import "./Project.css";
 
@@ -14,24 +14,15 @@ function ProjectCards(props) {
         <Card.Text className="card-content">{props.description}</Card.Text>
         <Button variant="primary" href={props.ghLink} target="_blank">
           <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
         </Button>
         {"\n"}
         {"\n"}
 
         {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
 
-        {!props.isBlog && props.demoLink && (
-          <Button
-            variant="primary"
-            href={props.demoLink}
-            target="_blank"
-            style={{ marginLeft: "10px" }}
-          >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
-          </Button>
-        )}
+        <Button variant="primary" href={props.pdfLink} target="_blank">
+          <AiOutlineLink /> &nbsp;
+        </Button>
       </Card.Body>
     </Card>
   );

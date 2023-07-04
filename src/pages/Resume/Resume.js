@@ -97,13 +97,13 @@ function Resume() {
         <Container className="resume-content">
           <ul>
             <li>
-              Code Optimization: Reduced the cyclomatic complexity of more than
-              25 functions.
+              Code Optimization: Reduced the cyclomatic complexity of 25+
+              functions. Updated project dependencies to the latest versions and
+              fixed several conflicts.
             </li>
             <li>
-              Compiler Bug Fix: Updated dependent library versions and fixed
-              conflicts, successfully located and solved the failure of several
-              example test cases using the GDB debugger.
+              Compiler Bug Fix: Successfully located and solved the failure of
+              10+ test cases using the GDB debugger.
             </li>
             <li>
               New Feature Development: Learned LLVM basics and developed a new
@@ -116,63 +116,96 @@ function Resume() {
       <Container className="project">
         <Container className="resume-header">Research and Projects</Container>
         <Container className="resume-subheader">
-          A Compiler For The COOL Programming Language:
+          Personal Website Template Built with React (JavaScript, React, HTML,
+          CSS)
         </Container>
         <Container className="resume-content">
           <ul>
             <li>
-              Implemented the four phases of the compiler, including lexical
-              analysis, syntax analysis, semantic analysis, and code generation.
+              Developed a modern and responsive personal website template using
+              React, HTML, CSS, and JavaScript.
+            </li>
+            <li>
+              Implemented reusable components and optimized the website for
+              improved performance.
+            </li>
+            <li>
+              Integrated various features such as navigation, contact forms, and
+              portfolio sections to showcase projects and skills.
+            </li>
+          </ul>
+        </Container>
+        <Container className="resume-subheader">
+          A Compiler For The COOL Programming Language (C++, Cool)
+        </Container>
+        <Container className="resume-content">
+          <ul>
+            <li>
+              Designed and implemented a compiler for the COOL (Classroom
+              Object-Oriented Language) programming language.
+            </li>
+            <li>
+              Developed lexical analysis, syntactic analysis, semantic analysis,
+              and code generation phases.
             </li>
             <li>
               Successfully compiled the COOL high-level language to MIPS
-              assembly and executed successfully on SPIM, the MIPS simulator.
+              assembly and executed on SPIM, the MIPS simulator.
             </li>
           </ul>
         </Container>
         <Container className="resume-subheader">
-          A Movie Recommendation System Using Collaborative Filtering:
+          Multiplayer Gobang Based on Reinforcement Learning (Python,
+          Reinforcement Learning, Transformer)
         </Container>
         <Container className="resume-content">
           <ul>
             <li>
-              Designed and implemented a movie recommendation system with good
-              user interface.
+              Developed a multiplayer Gobang (also known as Five in a Row) game
+              using reinforcement learning techniques.
             </li>
             <li>
-              Provided reasonable movie recommendation results based on filter
-              criteria keywords.
-            </li>
-          </ul>
-        </Container>
-        <Container className="resume-subheader">
-          A Student Management System:
-        </Container>
-        <Container className="resume-content">
-          <ul>
-            <li>
-              Design and implement a student management system with different
-              permissions of student teaching assistants and teachers.
+              Utilized reinforcement learning algorithms, such as deep
+              Q-learning, to train an AI agent to play Gobang.
             </li>
             <li>
-              Realized the functions of adding courses, adding grades, modifying
-              student information, etc.
+              Evaluated the AI agent’s performance against human players and
+              assessed its learning capabilities and gameplay effectiveness.
             </li>
           </ul>
         </Container>
         <Container className="resume-subheader">
           Image Inpainting Using GAN, Partial Convolution And Region
-          Normalization:
+          Normalization (Python, Computer Vision, GAN, PyTorch)
         </Container>
         <Container className="resume-content">
           <ul>
             <li>
-              Proposed a model based on a conditional GAN, replaced all
-              convolutional layers with partial convolutional layers.
+              Developed an image inpainting system using state-of-the-art
+              techniques including Generative Adversarial Networks (GAN),
+              Partial Convolution, and Region Normalization.
             </li>
             <li>
-              Implemented Region Normalization in the Generator, and achieved
-              better qualitative and quantitative results.
+              Demonstrated the effectiveness of the system through extensive
+              experimentation and evaluation on diverse datasets.
+            </li>
+          </ul>
+        </Container>
+        <Container className="resume-subheader">
+          Exploration and Agent Improvement under Near-Real Market Environments
+          Simulation Using DRL
+        </Container>
+        <Container className="resume-content">
+          <ul>
+            <li>
+              Simulated the market trading environments in the real world.
+              Applied several popular deep reinforcement learning algorithms to
+              trade multiple stocks.
+            </li>
+            <li>
+              Proposed an improved model using ensemble method. Evaluated the
+              profitability of agents with different algorithms in extreme
+              trading environments.
             </li>
           </ul>
         </Container>
@@ -188,6 +221,22 @@ function Resume() {
             </li>
             <li>University Student Scholarship of Texas Instruments - 2019</li>
             <li>Outstanding Volunteer of Zhejiang University - 2019</li>
+          </ul>
+        </Container>
+        <hr />
+      </Container>
+      <Container className="other">
+        <Container className="resume-header">Other Experience</Container>
+        <Container className="resume-subheader">
+          Volunteer teacher in elementary school
+        </Container>
+        <Container className="resume-time">Summer 2018</Container>
+        <Container className="resume-content">
+          <ul>
+            <li>
+              Taught more than 30 students science and managed the daily affairs
+              of the class
+            </li>
           </ul>
         </Container>
       </Container>
